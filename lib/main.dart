@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import '../a_main/a1.dart';
-import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+//import '../a_main/a1.dart';
+//import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+void main() => runApp(MenuDrawer());
 
-//AppBar
 class MenuAppBar extends StatefulWidget implements PreferredSizeWidget {
   @override
   State<MenuAppBar> createState() => _MenuAppBarState();
@@ -42,7 +42,7 @@ class MenuDrawer extends StatefulWidget {
 }
 
 class _MenuDrawerState extends State<MenuDrawer> {
-  static final autoLoginStorage = FlutterSecureStorage();
+  //static final autoLoginStorage = FlutterSecureStorage();
   @override
   Widget build(BuildContext context) {
     return Drawer(
